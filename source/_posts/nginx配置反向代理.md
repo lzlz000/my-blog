@@ -1,6 +1,6 @@
 ---
 title: nginx配置反向代理
-date: 2019-06-09 04:23:49
+date: 2019-04-09 04:23:49
 tags: nginx
 typora-root-url: ../
 ---
