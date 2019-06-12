@@ -10,6 +10,7 @@ keywords:
 author: lzlz000
 language: zh-CN
 timezone:
+blackboard: 欢迎来到lz的个人空间
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -50,7 +51,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 5
+  per_page: 3
   order_by: -date
   
 # Category & Tag

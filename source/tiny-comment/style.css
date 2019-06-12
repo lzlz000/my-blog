@@ -1,0 +1,99 @@
+#tiny-comment{
+    margin: 10px 0;
+    background: #ffffff;
+    border: 1px solid #C0C4CC;
+}
+#tiny-comment .tiny-container{
+    padding: 20px 20px 5px;
+}
+#tiny-comment .tiny-footer{
+    padding: 5px  20px;
+    background: #262A30;
+    color: #999999;
+    font-size: 12px;
+}
+#tiny-comment .tiny-footer a{
+    color: #258FB8;
+    text-decoration:none;
+}
+#tiny-comment input{
+    width: 150px;
+    border: none;
+    border-bottom: 1px solid #C0C4CC;
+    outline: none;
+    margin-right: 10px;
+}
+#tiny-comment input:focus{
+    border-bottom: 1px solid #409EFF;
+}
+#tiny-comment .input-wrapper{
+    border: 1px dashed #C0C4CC;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 20px
+}
+#tiny-comment .input-wrapper textarea{
+    /* border: 1px dashed #C0C4CC; */
+    border: none;
+    margin-top: 5px;
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+}
+#tiny-comment button{
+    padding: 5px 20px;
+    border: 1px solid #DCDFE6;
+    border-radius: 3px;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+    
+}
+#tiny-comment button:active{
+    border: 1px solid #409EFF;
+    color: #409EFF;
+
+}
+#tiny-comment .comment-count{
+    margin: 10px 0;
+}
+#tiny-comment .segment{
+    margin: 10px 0;
+    border-bottom: 1px solid #DCDFE6;
+}
+#tiny-comment .secondary{
+    font-size: 12px;
+    color: #C0C4CC;
+    
+}
+#tiny-comment .segment .nickname{
+    color: #409EFF;
+    cursor: default;
+}
+#tiny-comment .comment-content{
+    margin: 12px;
+}
+#tiny-comment .reply-btn{
+    font-size: 12px;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    color: #F56C6C;
+    outline: none;
+}
+#tiny-comment .reply-btn:active{
+    border: none;
+    color: rgb(214, 0, 0);
+}
+#tiny-comment .reply{
+    margin: 5px 0 5px 20px;
+    padding: 5px;
+    border-top: 1px solid #DCDFE6;
+    font-size: 13px;
+}
+#tiny-comment .reply .comment-content{
+    margin: 5px;
+}
