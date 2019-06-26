@@ -8,6 +8,7 @@ var rUrl = /((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:ww
 */
 
 hexo.extend.tag.register('fancybox', function(args){
+    /*
   var original = args.shift(),
     thumbnail = '';
 
@@ -21,4 +22,5 @@ hexo.extend.tag.register('fancybox', function(args){
     '<img src="' + (thumbnail || original) + '" alt="' + title + '">'
     '</a>' +
     (title ? '<span class="caption">' + title + '</span>' : '');
+    */
 });

@@ -1,16 +1,17 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  主页: /
+  归档: /archives
 # rss: /atom.xml
 
 # Content
 excerpt_link: Read More
-fancybox: true
+fancybox: false
 
 # Sidebar
 sidebar: right
 widgets:
+- about
 - category
 - tag
 - tagcloud
