@@ -1,7 +1,7 @@
 ---
 title: 量子密钥分发原理(python实现)
 date: 2019-03-20 13:57:15
-tags: [python, 好奇心害死猫]
+tags: [python, 好奇心]
 typora-root-url: ../
 ---
 

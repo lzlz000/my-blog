@@ -5,11 +5,11 @@ tags: [mysql]
 typora-root-url: ../
 ---
 
-[lzlz000的个人空间](lzlz000.github.io)
+[lzlz000的个人主页](https://lzlz000.github.io)
 
 总结一下最近学习整理的mysql优化问题 😀
 
-我感觉mysql优化特别像看病：通过慢查询来定位症状，执行计划则是检测项目-CT,X光,验血...，sql优化就是治疗手段。
+我感觉mysql优化特别像看病：通过慢查询来定位症状，执行计划则是检测项目-CT,X光,验血...，sql优化就是治疗手段。当然好的业务设计就像是良好的生活习惯，能减少疾病的发生。
 
 ## 慢查询
 
@@ -48,4 +48,8 @@ mysql> set global long_query_time=0;
 Query OK, 0 rows affected (0.05 sec)
 
 ```
+
+- 这里有个小问题，**set global long_query_time** "不生效"的问题，long_query_time 这个属性是有global值和session值的，你可以关闭并重启会话，或者使用 SHOW GLOBAL VARIABLES LIKE 'long_query_time' 查询当前值
+
+
 
