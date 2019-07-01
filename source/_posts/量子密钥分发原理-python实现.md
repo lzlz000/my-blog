@@ -1,7 +1,7 @@
 ---
-title: 量子密钥分发原理(python实现)
+title: 量子密钥分发是如何实现的
 date: 2019-03-20 13:57:15
-tags: [python, 好奇心]
+tags: [探索与发现, python]
 typora-root-url: ../
 ---
 
