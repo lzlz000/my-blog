@@ -1,7 +1,7 @@
 ---
 title:  SpringBoot+ajax长轮询实现简单即时通讯
 date: 2018-03-10 00:00:00
-tags: [java, 前端]
+tags: [java, 前端, springboot]
 typora-root-url: ../
 ---
 

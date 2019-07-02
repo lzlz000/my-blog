@@ -4,10 +4,11 @@ date: 2019-07-02 17:54:20
 tags: [前端]
 typora-root-url: ../
 ---
+[lzlz000的个人主页](https://lzlz000.github.io)
 
-elment-ui提供了面包屑组件 **el-breadcrumb** 然而他要配合url跳转路由使用，在项目中需要用到页面内的面包屑，因此我写了一个组件 **inner-breadcrumb**
+elment-ui提供了面包屑组件 **el-breadcrumb** 然而他要配合url跳转路由使用，在项目中需要用到页面内的面包屑，因此我写了一个组件 **inner-breadcrumb**(源码在文章底部)
 
-inner-breadcrumb 包装了 el-breadcrumb 显示效果基本相同，不同的是，不再跳转页面，而是提供一个v-model控制当前的path值，并且提供了动态路径显示的功能（样式只是因为，我们的需求如此，这个可以很容易更改）
+inner-breadcrumb 包装了 el-breadcrumb 显示效果基本相同，不同的是，不再跳转页面，而是提供一个v-model控制当前的path值，并且提供了动态路径显示的功能（样式只是因为我们的需求如此，这个可以很容易更改）
 原版样式 
 ![](/images/5d037c361553b.png)
 本组件样式
