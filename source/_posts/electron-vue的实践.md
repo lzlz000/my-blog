@@ -17,15 +17,13 @@ tags: [electron, 前端]
 
 百度上搜索关键词"electron vue" 找到的很多文章会让人误入歧途，比如这个：
 
-<https://www.cnblogs.com/jiangxifanzhouyudu/p/9517651.html>， 搜到的第一个就是它。
-
-记住，任何使用 vue-cli 里面 
+<https://www.cnblogs.com/jiangxifanzhouyudu/p/9517651.html>， 搜到的第一个就是它。使用 vue-cli 常规webpack打包
 
 ```
 vue init webpack xxx
 ```
 
-初始化普通vue单页面项目的方式都是不对的，electron中运行和服务器上运行的web应用有很多区别，对于以后的开发和调试都非常不方便。当前最好的方式是：
+初始化普通vue单页面项目的方式都是不对的，electron中运行和服务器上运行的web应用有很多区别，对于以后的开发和调试都非常不方便。这才是正确方式：
 
 ```
 vue init simulatedgreg/electron-vue ele-vue
