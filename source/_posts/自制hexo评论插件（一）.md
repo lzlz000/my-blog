@@ -1,7 +1,7 @@
 ---
 title: 自制hexo评论插件（一）
 date: 2019-06-13 01:13:00
-tags: [hexo, 自制hexo评论插件]
+tags: []
 typora-root-url: ../
 ---
 
