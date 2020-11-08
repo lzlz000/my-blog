@@ -2,9 +2,7 @@
 menu:
   主页: /
   归档: /archives
-  开往: https://travellings.now.sh/
-  
-rss: /atom.xml
+# rss: /atom.xml
 
 # Content
 excerpt_link: Read More
@@ -37,4 +35,4 @@ favicon: /favicon.ico
 twitter:
 # google_plus:
 fb_admins:
-# fb_app_id
+# fb_app_id:
