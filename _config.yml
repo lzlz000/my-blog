@@ -80,7 +80,7 @@ theme: fluid
 deploy:
   type: git
   repo: https://github.com/lzlz000/lzlz000.github.io.git
-  branch: master
+  branch: hexo5
 sitemap:
   path: sitemap.xml
 baidusitemap:
